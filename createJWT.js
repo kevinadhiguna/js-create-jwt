@@ -12,4 +12,12 @@ let token = jwt.sign({
 	roles: ['student']
 }, secret);
 
+console.log("-- Generated JWT --");
 console.log('JWT :', token);
+
+let decoded = jwt.decode(token, { complete: true });
+
+console.log("\n-- Decoded JWT --");
+console.log("Header :", decoded.header);
+console.log("Payload :", decoded.payload);
+console.log("Signature :", decoded.signature); // Header + Payload generate signature
