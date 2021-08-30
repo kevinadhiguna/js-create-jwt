@@ -8,6 +8,7 @@
 ```
 git clone https://github.com/kevinadhiguna/js-create-jwt
 ```
+<br/>
 
 2) Install dependencies : <br/>
 ```
@@ -17,8 +18,26 @@ or
 ```
 npm install
 ```
+<br/>
 
-3) Generate a new JWT : <br/>
+3) Create environment variables (`.env` file) by copying `.env.example` file :
+```
+cp .env.example .env
+```
+<br/>
+
+4) Generate secret and put it into `.env` file :
+```
+openssl rand 64 | base64 # (linux/macOS users)
+```
+or
+```
+node -e "console.log(require('crypto').randomBytes(64).toString('base64'))" # (all users)
+```
+
+<br/>
+
+5) Generate a new JWT : <br/>
 ```
 yarn generate
 ```
