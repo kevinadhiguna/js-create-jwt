@@ -89,6 +89,40 @@ docker run -e JWT_SECRET=w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6
 The command above should give you result like this : <br/><br/>
 <img src="https://s9.gifyu.com/images/docker-generate-jwt.png" alt="docker-generate-jwt.png" border="0" />
 
+<hr/>
 <br/>
+
+## How to Run (pull from DockerHub):
+
+If you want to pull the docker image from DockerHub, here are the steps:
+1) Pull the docker image:<br/>
+```
+docker pull kevinadhiguna/js-create-jwt:latest
+```
+
+2) Generate secret : <br/>
+```
+openssl rand 64 | base64 # (linux/macOS users)
+```
+or
+```
+node -e "console.log(require('crypto').randomBytes(64).toString('base64'))" # (all users)
+```
+
+Copy the result (secret) so that you can paste it as `JWT_SECRET` value in the next command.
+
+3) Run the docker image : <br/><br/>
+Let's say the secret is `w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6WQvRUZtu2pgp3WiL5oFgz6XoSN7Q4VA==`. Then pass it as the `JWT_SECRET` value.
+```
+docker run -e JWT_SECRET=w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6WQvRUZtu2pgp3WiL5oFgz6XoSN7Q4VA== js-jwt
+```
+
+Unfortunately, currently the image from DockerHub has not fully passed tests yet...
+
+<!--
+The command above should give you result like this : <br/><br/>
+<img src="https://s9.gifyu.com/images/docker-generate-jwt.png" alt="docker-generate-jwt.png" border="0" />
+<br/>
+-->
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/js-create-jwt)](https://github.com/kevinadhiguna)
