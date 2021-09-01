@@ -2,6 +2,14 @@
 
 🔑 A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) library.
 
+## What is JWT?
+
+JWT stands for JSON Web Token that is used to authenticate a user/session to backend services and also to authenticate between backend services.
+
+References :
+- [Lovia - JSON Web Token](https://about.lovia.life/docs/engineering/lovia-system-architecture/jwt/)
+- [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it)
+
 ## How to Run:
 
 1) Clone this repository : <br/>
