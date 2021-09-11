@@ -2,7 +2,7 @@
 
 🔑 A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) library.
 
-## What is JWT?
+## 🧐 What is JWT ?
 
 JWT stands for JSON Web Token that is used to authenticate a user/session to backend services and also to authenticate between backend services.
 <br/>
@@ -28,7 +28,7 @@ References :
 - [Lovia - JSON Web Token](https://about.lovia.life/docs/engineering/lovia-system-architecture/jwt/)
 - [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it)
 
-## How to Run (using `Yarn`):
+## 🧶 How to Run (using `Yarn`):
 
 1) Clone this repository : <br/>
 ```
@@ -78,7 +78,7 @@ The result will look like this : <br/><br/>
 <hr/>
 <br/>
 
-## How to Run (using `Docker`):
+## 🐋 How to Run (using `Docker`):
 
 You can either choose to build docker image by yourself or pull the docker image from DockerHub.
 
@@ -118,7 +118,7 @@ The command above should give you result like this : <br/><br/>
 <hr/>
 <br/>
 
-## How to Run (pull from DockerHub):
+## 🌊 How to Run (pull from DockerHub):
 
 If you want to pull the docker image from DockerHub, here are the steps:
 1) Pull the docker image:<br/>
@@ -149,7 +149,7 @@ The command above should give you result like this : <br/><br/>
 <hr/>
 <br/>
 
-## How to Run (using `docker-compose`):
+## 🐳 How to Run (using `docker-compose`):
 
 1) Clone this repository : <br/>
 ```
