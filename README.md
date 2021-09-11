@@ -2,6 +2,14 @@
 
 🔑 A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) library.
 
+## 📚 Table of Contents
+
+1. [🧐 What is JWT ?]()
+2. [🧶 How to Run (using `Yarn`)]()
+3. [🐋 How to Run (using `Docker`)]()
+4. [🌊 How to Run (pull from DockerHub)]()
+5. [🐳 How to Run (using `docker-compose`)]()
+
 ## 🧐 What is JWT ?
 
 JWT stands for JSON Web Token that is used to authenticate a user/session to backend services and also to authenticate between backend services.
