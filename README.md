@@ -6,11 +6,11 @@ A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken]
 
 ## 📚 Table of Contents
 
-1. [🧐 What is JWT ?]()
-2. [🧶 How to Run (using `Yarn`)]()
-3. [🐋 How to Run (using `Docker`)]()
-4. [🌊 How to Run (pull from DockerHub)]()
-5. [🐳 How to Run (using `docker-compose`)]()
+1. [🧐 What is JWT ?](#-table-of-contents)
+2. [🧶 How to Run (using `Yarn`)](#-how-to-run-using-yarn)
+3. [🐋 How to Run (using `Docker`)](#-how-to-run-using-docker)
+4. [🌊 How to Run (pull from DockerHub)](#-how-to-run-pull-from-dockerhub)
+5. [🐳 How to Run (using `docker-compose`)](#-how-to-run-using-docker-compose)
 
 <br/>
 
