@@ -1,6 +1,8 @@
-# JavaScript - Create JWT
+# JavaScript - Create JWT 🔑 
 
-🔑 A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) library.
+A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) library.
+
+<br/>
 
 ## 📚 Table of Contents
 
@@ -9,6 +11,8 @@
 3. [🐋 How to Run (using `Docker`)]()
 4. [🌊 How to Run (pull from DockerHub)]()
 5. [🐳 How to Run (using `docker-compose`)]()
+
+<br/>
 
 ## 🧐 What is JWT ?
 
@@ -35,6 +39,8 @@ The JWT from the client is decoded to a header and a paylaod. Then both of them 
 References :
 - [Lovia - JSON Web Token](https://about.lovia.life/docs/engineering/lovia-system-architecture/jwt/)
 - [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it)
+
+<br/>
 
 ## 🧶 How to Run (using `Yarn`):
 
