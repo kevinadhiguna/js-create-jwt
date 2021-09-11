@@ -28,7 +28,7 @@ References :
 - [Lovia - JSON Web Token](https://about.lovia.life/docs/engineering/lovia-system-architecture/jwt/)
 - [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it)
 
-## How to Run:
+## How to Run (using `Yarn`):
 
 1) Clone this repository : <br/>
 ```
@@ -78,7 +78,7 @@ The result will look like this : <br/><br/>
 <hr/>
 <br/>
 
-## How to Run (using Docker):
+## How to Run (using `Docker`):
 
 You can either choose to build docker image by yourself or pull the docker image from DockerHub.
 
@@ -145,6 +145,38 @@ docker run -e JWT_SECRET=w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6
 
 The command above should give you result like this : <br/><br/>
 <img src="https://s9.gifyu.com/images/docker-generate-jwt-2.png" alt="docker-generate-jwt-2.png" border="0" />
+
+<hr/>
+<br/>
+
+## How to Run (using `docker-compose`):
+
+1) Clone this repository : <br/>
+```
+git clone https://github.com/kevinadhiguna/js-create-jwt
+```
+
+2) Generate secret : <br/>
+```
+openssl rand 64 | base64 # (linux/macOS users)
+```
+or
+```
+node -e "console.log(require('crypto').randomBytes(64).toString('base64'))" # (all users)
+```
+
+Copy the result (secret) so that you can paste it as `JWT_SECRET` value in `.env` file.
+
+4) Run docker-compose : <br/>
+```
+docker-compose up
+```
+
+The command above should give you result like this : <br/><br/>
+<img src="https://s9.gifyu.com/images/dc.png" alt="docker-compose-generate-jwt.png" border="0" />
+
+Eventually, if you want to remove the docker container created from the command above, you can run `docker-compose down`. It also deletes the docker network. <br/><br/>
+<img src="https://s9.gifyu.com/images/dc-2.png" alt="dc-2.png" border="0" />
 
 <br/>
 
