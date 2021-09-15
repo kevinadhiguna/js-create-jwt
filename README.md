@@ -16,7 +16,7 @@ A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken]
 
 ## 🧐 What is JWT ?
 
-JWT stands for JSON Web Token that is used to authenticate a user/session to backend services and also to authenticate between backend services.
+JWT stands for JSON Web Token that is used **to authenticate a user/session** to backend services and also to authenticate between backend services.
 <br/>
 <br/>
 A JWT consists of three parts:
