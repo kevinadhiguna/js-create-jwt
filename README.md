@@ -6,7 +6,7 @@ A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken]
 
 ## 📚 Table of Contents
 
-1. [🧐 What is JWT ?](#-table-of-contents)
+1. [🧐 What is JWT ?](#-what-is-jwt-)
 2. [⚙️ Prerequisites](#%EF%B8%8F-prerequisites)
 3. [🧶 How to Run (using `Yarn`)](#-how-to-run-using-yarn)
 4. [🐋 How to Run (using `Docker`)](#-how-to-run-using-docker)
