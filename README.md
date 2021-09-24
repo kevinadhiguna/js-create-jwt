@@ -6,17 +6,18 @@ A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken]
 
 ## 📚 Table of Contents
 
-1. [🧐 What is JWT ?](#-table-of-contents)
-2. [🧶 How to Run (using `Yarn`)](#-how-to-run-using-yarn)
-3. [🐋 How to Run (using `Docker`)](#-how-to-run-using-docker)
-4. [🌊 How to Run (pull from DockerHub)](#-how-to-run-pull-from-dockerhub)
-5. [🐳 How to Run (using `docker-compose`)](#-how-to-run-using-docker-compose)
+1. [🧐 What is JWT ?](#-what-is-jwt-)
+2. [⚙️ Prerequisites](#%EF%B8%8F-prerequisites)
+3. [🧶 How to Run (using `Yarn`)](#-how-to-run-using-yarn)
+4. [🐋 How to Run (using `Docker`)](#-how-to-run-using-docker)
+5. [🌊 How to Run (pull from DockerHub)](#-how-to-run-pull-from-dockerhub)
+6. [🐳 How to Run (using `docker-compose`)](#-how-to-run-using-docker-compose)
 
 <br/>
 
 ## 🧐 What is JWT ?
 
-JWT stands for JSON Web Token that is used to authenticate a user/session to backend services and also to authenticate between backend services.
+JWT stands for JSON Web Token that is used **to authenticate a user/session** to backend services and also to authenticate between backend services.
 <br/>
 <br/>
 A JWT consists of three parts:
@@ -39,6 +40,14 @@ The JWT from the client is decoded to a header and a paylaod. Then both of them 
 References :
 - [Lovia - JSON Web Token](https://about.lovia.life/docs/engineering/lovia-system-architecture/jwt/)
 - [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it)
+
+<br/>
+
+## ⚙️ Prerequisites
+
+Prerequisites means what you should prepare/have before diving into a project. You should have [NodeJS](https://nodejs.org/en/) installed in your laptop/computer.
+
+This project was created and tested using NodeJS v14.17.5. Hence, NodeJS version 14.17.5 or above should work.
 
 <br/>
 
