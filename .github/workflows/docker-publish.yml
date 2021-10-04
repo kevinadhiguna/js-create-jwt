@@ -7,12 +7,16 @@ on:
 jobs:
   build:
     
-    runs-on: ${{matrix.os}}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+    runs-on: ubuntu-latest
+
+    # == Test on other OSes (Windows & MacOS) ==
+    # note: According to https://qiita.com/wwalpha/items/6c303dcf04e236238315, Docker command does not exist in windows-latest and macOS-latest.
+    # runs-on: ${{matrix.os}}
+    # strategy:
+    #   matrix:
+    #     os: [ubuntu-latest, windows-latest, macOS-latest]
       # When set to true, GitHub cancels all in-progress jobs if any matrix job fails. Default: true
-      fail-fast: true
+      # fail-fast: true
     
     steps:
       
