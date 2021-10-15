@@ -29,11 +29,15 @@ The signing algorithm which is usually HS256, utilizes the header, the payload, 
 <br/>
 <br/>
 ![JWT-signing-process](https://user-images.githubusercontent.com/43397636/131616759-9b8671b3-bdb6-4cb0-a77d-f7c31770e5e0.png)
+<br/>
+(image from : [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it))
 
 In the server-side which stores the secret (used to generate a signature), the JWT verification process occurrs. The figure below gives an illustration :
 <br/>
 <br/>
 ![JWT-verification-process](https://user-images.githubusercontent.com/43397636/131617109-7973a771-7045-4419-ae7e-300d986baa20.png)
+<br/>
+(image from : [StackOverflow - What is secret key for JWT based authentication and how to generate it?](https://stackoverflow.com/questions/31309759/what-is-secret-key-for-jwt-based-authentication-and-how-to-generate-it))
 
 The JWT from the client is decoded to a header and a paylaod. Then both of them are combined with the secret in the server-side to geenrate a test signature. As a result, if test siganture matches the original signature that comes within the JWT from the client, it is verified succesfully which means the JWT is valid. Otherwise, it's invalid and data probably have been modified.
 
