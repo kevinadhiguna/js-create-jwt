@@ -109,10 +109,10 @@ or
 ```
 npm run generate
 ```
-
+<!--
 The result will look like this : <br/><br/>
 <img src="https://s9.gifyu.com/images/generate-jwt.png" alt="generate-jwt.png" border="0" />
-
+-->
 <hr/>
 <br/>
 
@@ -149,10 +149,10 @@ Let's say the secret is `w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6
 ```
 docker run -e JWT_SECRET=w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6WQvRUZtu2pgp3WiL5oFgz6XoSN7Q4VA== js-jwt
 ```
-
+<!--
 The command above should give you result like this : <br/><br/>
 <img src="https://s9.gifyu.com/images/docker-generate-jwt.png" alt="docker-generate-jwt.png" border="0" />
-
+-->
 <hr/>
 <br/>
 
@@ -180,10 +180,10 @@ Let's say the secret is `w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6
 ```
 docker run -e JWT_SECRET=w4KuiqUDzvjIFBA4jHpUfjAeOOCH1DHJOODHkGXBUYLtK0bnp26GDM6WQvRUZtu2pgp3WiL5oFgz6XoSN7Q4VA== kevinadhiguna/js-create-jwt:latest
 ```
-
+<!--
 The command above should give you result like this : <br/><br/>
 <img src="https://s9.gifyu.com/images/docker-generate-jwt-2.png" alt="docker-generate-jwt-2.png" border="0" />
-
+-->
 <hr/>
 <br/>
 
@@ -209,13 +209,14 @@ Copy the result (secret) so that you can paste it as `JWT_SECRET` value in `.env
 ```
 docker-compose up
 ```
-
+<!--
 The command above should give you result like this : <br/><br/>
 <img src="https://s9.gifyu.com/images/dc.png" alt="docker-compose-generate-jwt.png" border="0" />
-
+-->
+<!--
 Eventually, if you want to remove the docker container created from the command above, you can run `docker-compose down`. It also deletes the docker network. <br/><br/>
 <img src="https://s9.gifyu.com/images/dc-2.png" alt="dc-2.png" border="0" />
-
+-->
 <br/>
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/js-create-jwt)](https://github.com/kevinadhiguna)
