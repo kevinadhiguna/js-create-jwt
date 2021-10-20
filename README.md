@@ -1,6 +1,17 @@
-# JavaScript - Create JWT 🔑 
+<br />
+<div align="center">
+  <h2 align="center">JavaScript - Create JWT 🔑</h2>
 
-A JavaScript program to create a JSON Web Token (JWT), powered by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) library.
+  <p align="center">
+    A JavaScript program to create a JSON Web Token (JWT), powered by <a href="https://github.com/auth0/node-jsonwebtoken">jsonwebtoken</a> library.
+  </p>
+</div>
+
+<div align="center">
+  <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+  <img alt="JSON Web Token" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" />
+  <img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+</div>
 
 <br/>
 
