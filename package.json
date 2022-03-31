@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "generate": "node createJWT.js"
+    "generate": "node createJWT.js",
+    "dev": "nodemon createJWT.js"
   },
   "license": "MIT",
   "dependencies": {
