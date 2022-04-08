@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     # Give a name to the docker container
-    container_name: js_create_jwt
+    container_name: js-create-jwt_ctr
     # Fetch an environment variable
     environment:
       JWT_SECRET: ${JWT_SECRET}
