@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    # Give a name to the docker image
+    image: js-create-jwt_img
     # Give a name to the docker container
     container_name: js-create-jwt_ctr
     # Fetch an environment variable
